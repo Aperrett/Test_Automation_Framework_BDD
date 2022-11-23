@@ -108,6 +108,7 @@ Inspired by [Scripts to Rule Them All](https://github.com/github/scripts-to-rule
 Runs the tests under `features/` inside a container completely in headless mode.
 
 i.e. Web UI Test: `scripts/run-taf features/ui_automationintesting_website --podman`
+
 i.e. API Test: `scripts/run-taf features/api_automationintesting --podman`
 
 #### scripts/helper format
@@ -130,6 +131,7 @@ Runs all tests defined in `features/`. Additional arguments and flags can be
 fed through to the underlying `behave` command.
 
 i.e. Web UI Tests with chrome: `scripts/run-taf -D browser=chrome features/ui_automationintesting_website --local`
+
 i.e. API Test: `scripts/run-taf features/api_automationintesting --local`
 
 #### scripts/helper audit
