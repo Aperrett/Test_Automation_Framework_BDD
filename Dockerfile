@@ -8,7 +8,7 @@ RUN apk add --update --no-cache chromium g++ gcc libxslt-dev ttf-dejavu \
     ttf-liberation tzdata libffi-dev chromium-chromedriver \
     && chmod -R 777 /taf \
     && pip install --upgrade pip --no-cache-dir -r requirements.txt \
-    && mkdir reports screenshots
+    && mkdir -p reports screenshots
 
 ENV PYTHONPATH /taf/lib TAF_CI True TZ Europe/London 
 
