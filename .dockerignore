@@ -1,0 +1,11 @@
+__pycache__
+.git
+.gitignore
+.venv
+Dockerfile
+geckodriver.log
+pre-commit
+README.md
+reports
+screenshots
+scripts
